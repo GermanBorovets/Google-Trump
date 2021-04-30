@@ -4,23 +4,23 @@ from random import randint
 pygame.init()
 
 walkRight = [
-    pygame.image.load('geometry_dash/img/pygame_right_1.png'),
-    pygame.image.load('geometry_dash/img/pygame_right_2.png'),
-    pygame.image.load('geometry_dash/img/pygame_right_3.png'),
-    pygame.image.load('geometry_dash/img/pygame_right_4.png'),
-    pygame.image.load('geometry_dash/img/pygame_right_5.png'),
-    pygame.image.load('geometry_dash/img/pygame_right_6.png')
+    pygame.image.load('img/pygame_right_1.png'),
+    pygame.image.load('img/pygame_right_2.png'),
+    pygame.image.load('img/pygame_right_3.png'),
+    pygame.image.load('img/pygame_right_4.png'),
+    pygame.image.load('img/pygame_right_5.png'),
+    pygame.image.load('img/pygame_right_6.png')
 ]
 
 
 font = pygame.font.Font(None, 25)
 win = pygame.display.set_mode([900, 300])
 bg = [170, 170, 255]
-l = pygame.image.load('geometry_dash/img/klipartz.com.png')
+l = pygame.image.load('img/klipartz.com.png')
 win.blit
 pygame.display.set_caption("Geomtry dash")
 
-back = pygame.image.load('geometry_dash/img/moscow-3550477_1280_0.jpg')
+back = pygame.image.load('img/moscow-3550477_1280_0.jpg')
 
 #pygame.display.flip()
 
